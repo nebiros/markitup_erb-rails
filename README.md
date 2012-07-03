@@ -1,6 +1,6 @@
 # MarkitupErb::Rails
 
-Vanilla [markItUp!](http://markitup.jaysalvat.com) for Rails 3.x, works with ERB, so, no extra gems needed like SCSS or LESS.
+Vanilla [markItUp!](http://markitup.jaysalvat.com) for Rails 3.x, works with ERB, so, no extra gems needed like SCSS (huh?) or LESS.
 It comes with these sets from markItUp!: Html, Textile, Wiki Syntax, Markdown, and BBcode, if
 you use one of them maybe you will need to add other gems to parse it ;-).
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 In `app/assets/javascripts/application.js` add this:
 
-```ruby
+```javascript
 //= require markitup/jquery.markitup
 //= require markitup/sets/default/set
 ```
@@ -39,7 +39,7 @@ replace `sets` lines in `app/assets/javascripts/application.js` and `app/assets/
 
 `app/assets/javascripts/application.js`:
 
-```ruby
+```javascript
 //= require markitup/jquery.markitup
 //= require markitup/sets/markdown/set
 ```
@@ -58,3 +58,11 @@ replace `sets` lines in `app/assets/javascripts/application.js` and `app/assets/
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+Copyright (C) 2007-2011 Jay Salvat. [markItUp!](http://markitup.jaysalvat.com) 
+is released under both the MIT and GPL Open Source licenses.
+
+Copyright (C) 2012 Juan Felipe Alvarez Saldarriaga. MarkitupErb::Rails is distributed 
+under the MIT license.

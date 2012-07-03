@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
     you use one of them maybe you will need to add other gems to parse it ;-).
   EOF
   gem.summary       = %q{Vanilla markItUp! for Rails 3.x}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/nebiros/markitup_erb-rails"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
