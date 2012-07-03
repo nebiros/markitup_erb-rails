@@ -51,6 +51,9 @@ replace `sets` lines in `app/assets/javascripts/application.js` and `app/assets/
 *= require markitup/sets/markdown/style
 ```
 
+In order to use [markItUp!](http://markitup.jaysalvat.com) follow the
+[documentation](http://markitup.jaysalvat.com/documentation) from step 4 :-).
+
 ## Contributing
 
 1. Fork it

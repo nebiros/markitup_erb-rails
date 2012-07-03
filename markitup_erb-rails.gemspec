@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Juan Felipe Alvarez Saldarriaga"]
   gem.email         = ["nebiros@gmail.com"]
   gem.description   = <<-EOF
-    Vanilla markItUp! for Rails 3.x, works with ERB, so, no extra gems needed like SCSS or LESS.
+    Vanilla markItUp! for Rails 3.x, works with ERB, so, no extra gems needed like SCSS (huh?) or LESS.
     It comes with these sets from markItUp!: Html, Textile, Wiki Syntax, Markdown, and BBcode, if
     you use one of them maybe you will need to add other gems to parse it ;-).
   EOF
