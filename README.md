@@ -4,7 +4,7 @@ Vanilla [markItUp!](http://markitup.jaysalvat.com) for Rails 3.x, works with ERB
 It comes with these sets from markItUp!: Html, Textile, Wiki Syntax, Markdown, and BBcode, if
 you use one of them maybe you will need to add other gems to parse it ;-).
 
-[markItUp!](http://markitup.jaysalvat.com) version: `1.1.2`.
+`markItUp! version: 1.1.12`
 
 ## Installation
 
