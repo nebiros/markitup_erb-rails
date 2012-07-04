@@ -4,6 +4,8 @@ Vanilla [markItUp!](http://markitup.jaysalvat.com) for Rails 3.x, works with ERB
 It comes with these sets from markItUp!: Html, Textile, Wiki Syntax, Markdown, and BBcode, if
 you use one of them maybe you will need to add other gems to parse it ;-).
 
+[markItUp!](http://markitup.jaysalvat.com) version: `1.1.2`.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,16 +24,27 @@ Or install it yourself as:
 
 In `app/assets/javascripts/application.js` add this:
 
-```javascript
+```
 //= require markitup/jquery.markitup
 //= require markitup/sets/default/set
 ```
 
 Now, in `app/assets/stylesheets/application.css` add this:
 
-```css
+```
 *= require markitup/skins/simple/style
 *= require markitup/sets/default/style
+```
+
+So, to enable [markItUp!](http://markitup.jaysalvat.com) for all
+textarea tags (you can change this selector in order to select a
+specific textarea) add this snippet.
+
+```javascript
+$(function () {
+  mySettings.previewTemplatePath = "/markitup_erb/previews/preview"; // MarkitupErb::Rails default preview template.
+  $("textarea").markItUp(mySettings);
+});
 ```
 
 This gem comes with this extra sets from markItUp!: html, textile, wiki, markdown, and bbcode. To use it just
@@ -39,14 +52,14 @@ replace `sets` lines in `app/assets/javascripts/application.js` and `app/assets/
 
 `app/assets/javascripts/application.js`:
 
-```javascript
+```
 //= require markitup/jquery.markitup
 //= require markitup/sets/markdown/set
 ```
 
 `app/assets/stylesheets/application.css`:
 
-```css
+```
 *= require markitup/skins/simple/style
 *= require markitup/sets/markdown/style
 ```
